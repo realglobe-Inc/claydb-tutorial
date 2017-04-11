@@ -1,0 +1,75 @@
+# {{prefix}} {{{cur.name}}}
+
+Database[ClayDB]({{{links.claydb}}})のチュートリアル。
+
+{{#if toc}}
+    ## {{{tocTitle}}}
+    {{{toc}}}
+{{/if}}
+
+## ClayDBとは
+
+* ラピッドプロトタイピングを実現するためのDatabase
+* 構造の厳密さよりも、設計の柔軟さを優先（ポインタ参照、オープンスキーマ、NoSQL...)
+* Driverを入れ替えることで、いろんな場所で動かせる
+* 単純なMergeポリシーによるゆるい分散結合
+* Javascriptで実装されている
+* [株式会社リアルグローブ]({{{links.realglobe}}})が開発している
+
+<a href="{{{links.sugos}}}">
+    <img src="{{{imgDir}}}/claydb-banner.png"
+         alt="Banner"
+         height="{{bannerHeight}}"
+    />
+</a>
+<a href="{{{links.node}}}">
+    <img src="{{{imgDir}}}/nodejs-banner.png"
+         alt="banner"
+         height="{{bannerHeight}}"
+         style="height:{{bannerHeight}}px"
+    /></a>
+<a href="{{{links.npm}}}">
+    <img src="{{{imgDir}}}/npm-banner.png"
+         alt="banner"
+         height="{{bannerHeight}}"
+         style="height:{{bannerHeight}}px"
+    /></a>
+<a href="{{{links.realglobe}}}">
+    <img src="{{{imgDir}}}/realglboe-logo.png"
+         alt="banner"
+         height="{{bannerHeight}}"
+         style="height:{{bannerHeight}}px"
+    /></a>
+
+
+## できること
+
+ClayDBを使うと、雑なデータ設計でそれなりに動くものがそれは素早くできるようになります。
+そして設計が固まった後に中身を厳密化していくことが可能になるのです。
+
+
+<img src="{{{imgDir}}}/claydb-overview.png"
+     alt="Overview"
+/>
+
+
+
+
+## まとめ
+
+## これも読みたい
+
++ 次回: [{{{next.name}}}]({{{next.url}}})
+
+
+## リンク
+
++ [SUGOS]({{{links.sugos}}})
++ [SUGO-Hub]({{{links.sugo-hub}}})
++ [SUGO-Actor]({{{links.sugo-actor}}})
++ [SUGO-Caller]({{{links.sugo-caller}}})
++ [Realglobe Inc]({{{links.realglobe}}})
++ Tutorials
+{{#each markdowns}}
+    + [{{{name}}}]({{{url}}})
+{{/each}}

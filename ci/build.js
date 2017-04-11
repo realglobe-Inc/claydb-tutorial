@@ -31,15 +31,15 @@ runTasks('build', [
   ]),
   () => co(function * () {
     let prefixes = {
-      'ja': '【SUGOSチュートリアル】',
-      'en': '[SUGOS Tutorial]'
+      'ja': '【ClayDBチュートリアル】',
+      'en': '[ClayDB Tutorial]'
     }
     let tocTitles = {
       'ja': '内容',
       'en': 'Table of Contents'
     }
     for (let lang of langs) {
-      let markdownBase = 'https://github.com/realglobe-Inc/sugos-tutorial/blob/master'
+      let markdownBase = 'https://github.com/realglobe-Inc/claydb-tutorial/blob/master'
       let markdowns = aglob.sync(`dist/markdown/${lang}/*.md`).map((filename) => {
         let name = path.basename(filename, '.md')
         let encodedFilename = path.join(path.dirname(filename), encodeURIComponent(unorm.nfc(name)) + '.md')

@@ -1,9 +1,9 @@
-# 【SUGOSチュートリアル】 00 - ClayDBをはじめよう
+# 【ClayDBチュートリアル】 00 - ClayDBをはじめよう
 
-Database[ClayDB](https://github.com/realglobe-Inc/claydb)のチュートリアル。
+擬似データベース [ClayDB](https://github.com/realglobe-Inc/claydb)のチュートリアル。
 
-    ## 内容
-    - [ClayDBとは](#claydb%E3%81%A8%E3%81%AF)
+## 内容
+- [ClayDBとは](#claydb%E3%81%A8%E3%81%AF)
 - [できること](#%E3%81%A7%E3%81%8D%E3%82%8B%E3%81%93%E3%81%A8)
 - [まとめ](#%E3%81%BE%E3%81%A8%E3%82%81)
 - [これも読みたい](#%E3%81%93%E3%82%8C%E3%82%82%E8%AA%AD%E3%81%BF%E3%81%9F%E3%81%84)
@@ -69,4 +69,4 @@ ClayDBを使うと、雑なデータ設計でそれなりに動くものがそ�
 + [ClayDB](https://github.com/realglobe-Inc/claydb)
 + [Realglobe Inc](http://realglobe.jp/)
 + Tutorials
-    + [00 - ClayDBをはじめよう](https://github.com/realglobe-Inc/sugos-tutorial/blob/master/dist/markdown/ja/00%20-%20ClayDB%E3%82%92%E3%81%AF%E3%81%98%E3%82%81%E3%82%88%E3%81%86.md)
+    + [00 - ClayDBをはじめよう](https://github.com/realglobe-Inc/claydb-tutorial/blob/master/dist/markdown/ja/00%20-%20ClayDB%E3%82%92%E3%81%AF%E3%81%98%E3%82%81%E3%82%88%E3%81%86.md)

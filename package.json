@@ -1,0 +1,64 @@
+{
+  "name": "claydb-tutorial",
+  "version": "1.0.0",
+  "description": "Tutorial for ClayDB",
+  "main": "lib",
+  "scripts": {
+    "test": "node ./ci/test.js",
+    "prepare": "node ./ci/build.js && node ./ci/assets.js"
+  },
+  "repository": "realglobe-Inc/claydb-tutorial",
+  "keywords": [
+    "ClayDB",
+    "tutorial"
+  ],
+  "author": {
+    "name": "Taka Okunishi",
+    "email": "okunishinish@gmail.com",
+    "url": "http://okunishitaka.com"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/realglobe-Inc/claydb-tutorial/issues"
+  },
+  "homepage": "https://github.com/realglobe-Inc/claydb-tutorial#readme",
+  "dependencies": {
+    "asleep": "^1.0.3",
+    "babel-polyfill": "^6.13.0",
+    "co": "^4.6.0",
+    "debug": "^2.6.1",
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0",
+    "sugo-actor": "^4.5.4",
+    "sugo-caller": "^3.2.2",
+    "sugo-hub": "^5.2.0",
+    "sugo-observer": "^2.0.11"
+  },
+  "devDependencies": {
+    "aglob": "^2.0.1",
+    "amocha": "^2.0.0",
+    "ape-formatting": "^1.0.2",
+    "ape-releasing": "^4.0.1",
+    "ape-reporting": "^3.0.1",
+    "ape-tasking": "^4.0.3",
+    "ape-tmpl": "^5.0.12",
+    "ape-updating": "^4.0.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "browserify": "^14.0.0",
+    "browserify-incremental": "^3.1.1",
+    "claydb-assets": "^2.0.3",
+    "coz": "^6.0.5",
+    "filecopy": "^3.0.1",
+    "injectmock": "^2.0.0",
+    "markdown-toc": "^1.1.0",
+    "sugos-index": "^2.0.2",
+    "sugos-travis": "^2.0.7",
+    "unorm": "^1.4.1"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=4"
+  }
+}
